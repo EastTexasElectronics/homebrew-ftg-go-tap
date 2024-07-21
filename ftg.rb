@@ -1,12 +1,12 @@
 class Ftg < Formula
   desc "File Tree Generator"
   homepage "https://github.com/EastTexasElectronics/File_Tree_Generator_GO/tree/v1.0.0"
-  url "https://github.com/EastTexasElectronics/File_Tree_Generator_GO/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/EastTexasElectronics/File_Tree_Generator_GO/releases/download/v1.0.0/ftg-macos"
   sha256 "973d987e30ce2368bea70cdd395e75258b70b91a4700f00a4d4dc8104b0c82bc"
   license "AGPL-3.0 license"
 
   def install
-    bin.install "ftg"
+    bin.install "ftg-macos" => "ftg"
   end
 
   test do
