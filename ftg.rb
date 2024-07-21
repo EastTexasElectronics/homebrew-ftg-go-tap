@@ -2,7 +2,7 @@ class Ftg < Formula
   desc "File Tree Generator"
   homepage "https://github.com/EastTexasElectronics/File_Tree_Generator_GO/tree/v1.0.0"
   url "https://github.com/EastTexasElectronics/File_Tree_Generator_GO/releases/download/v1.0.0/ftg-macos"
-  sha256 "973d987e30ce2368bea70cdd395e75258b70b91a4700f00a4d4dc8104b0c82bc"
+  sha256 "bcbf308671cb1c4990073887a6b4dee699ac50f52dd753a6bce0b3e552b95a5b"
   license "AGPL-3.0 license"
 
   def install
